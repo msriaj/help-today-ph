@@ -11,6 +11,7 @@ section{
 img{
     width: 100%;
 }
+
 h1 {
     font-size: 65px;
 }
@@ -20,17 +21,9 @@ h2{
     font-size: 45px;
     text-align: center;
 }
+
 h3{
     font-size: 30px;
-}
-
-.header {
-    background-image: url(images/header-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    color:#fff;  
-
 }
 
 p{
@@ -39,13 +32,14 @@ p{
     color: #707070;
 }
 
- 
+
 .white-text{
     color: #fff;
 }
 .text-center{
     text-align: center;
 }
+
 .red-button{
     background-color: #FF5959;
     color: #fff;
@@ -54,6 +48,20 @@ p{
     border-radius: 5px;
     margin-top: 10px;
 }
+
+
+
+
+.header {
+    background-image: url(images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color:#fff;  
+}
+
+
+
 
 .donate-now-area{
     width: 70%;
@@ -88,27 +96,34 @@ p{
 
 
 
+
 .donate-plan-list {
     display: flex;
 }
+
 .singel-donate-plan{
     padding: 50px 20px;
     border-radius: 5px;
     margin: 10px;
     width: 33%;
 }
+
 .singel-donate-plan  img{
     width: 50px;
 }
+
 .light-blue{
     background-color: #EDF5F6;
 }
+
 .light-red{
     background-color: #FFEEEE;
 }
+
 .light-yellow{
     background-color: #FFF4D6;
 }
+
 
 
 
@@ -116,12 +131,13 @@ p{
     width: 50%;
 }
 
-.flex-area,
-.singel-helping-option{
+
+.flex-area, .singel-helping-option{
     display: flex;
     align-items: center;
     
 }
+
 .option-icon{
     width: 10%;
     background-color: #FFEEEE;
@@ -133,18 +149,31 @@ p{
 .option-content{
     width: 80%;
 }
+
 .helping-option-area{
     width: 80%;
 }
+
 .video-thumb{
     border-radius: 10px;
 }
+
+
+
+
 .subscription-area{
     width: 70%;
 }
-.subscription-from{
-    padding: 80px 150px;
+
+.donate-now-area p, .donate-plan-area p, .subscription-area p{
+    margin-bottom: 40px;
 }
+
+.subscription-from{
+    padding: 50px 150px;
+    
+}
+
 #email{
     background-color: #D9D9D9;
     padding: 16px;
@@ -156,6 +185,10 @@ p{
 #subscribe{
     border-radius: 0px 5px 5px 0px;
 }
+
+
+
+
 .footer{
     background-color: #000;
     color:#fff;
